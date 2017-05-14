@@ -5,9 +5,9 @@ handlers:
 - url: /.*
   script: main.php
 
-env_variables:
+#env_variables:
   # Replace project, instance, database, user and password with the values obtained
   # when configuring your Cloud SQL instance.
-  MYSQL_DSN: mysql:unix_socket=/cloudsql/payment-calculator:us-central1:iou-db;dbname=iou
-  MYSQL_USER: root
-  MYSQL_PASSWORD: 'password'
+  #MYSQL_DSN: mysql:unix_socket=/cloudsql/payment-calculator:us-central1:iou-db;dbname=iou
+  #MYSQL_USER: root
+  #MYSQL_PASSWORD: 'password'
