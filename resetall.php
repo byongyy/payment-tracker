@@ -43,6 +43,8 @@
 		
 		</fieldset>
 	</form>
-		  	
+	
+<?php mysqli_free_result($results); ?>
+	
 </body>
 
