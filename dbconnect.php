@@ -1,7 +1,6 @@
 <?php
-    //$host = "payment-calculator:us-central1:iou-db";
-	$host = "localhost";
-    $user = "root";
+    $host = "payment-calculator:us-central1:iou-db";
+	$user = "root";
     $pwd = "password"; 
     $dbname = "iou";
 
