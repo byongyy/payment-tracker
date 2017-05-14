@@ -1,5 +1,4 @@
-runtime: php
-env: flex
+runtime: php56
 api_version: 1
 
 handlers:
