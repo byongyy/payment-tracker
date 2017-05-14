@@ -1,8 +1,8 @@
 <?php
-    $host = "payment-calculator:us-central1:iou-db";
+    $host = ":/cloudsql/payment-calculator:us-central1:iou-db";
 	$user = "root";
     $pwd = "password"; 
-    $dbname = "iou";
+    $dbname = "iou-db";
 
     $conn = mysqli_connect($host,$user,$pwd,$dbname);
 
