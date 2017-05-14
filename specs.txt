@@ -1,0 +1,51 @@
+FEATURES
+
+	MAIN
+		input:
+			name of payer (dropdown)
+			payment amount
+			payment reason
+			people to split on
+			split type
+				1. even
+				2. fixed amount for member(s): split balance evenly among remaining
+		output:
+			confirmation
+
+	NEW SESSION
+		input:
+			name of session
+			member names
+		output:
+			confirmation (session name + list of individuals)
+	
+			
+	REMOVE PAYMENT
+		input:
+			dropdown for names and respective payment choices
+		output:
+			confirmation
+			
+	ADD MEMBER
+		input:
+			member name
+		output:
+			confirmation
+			
+	REMOVE MEMBER
+		input:
+			member name (dropdown)
+		output:
+			confirmation
+		
+	CALCULATE
+		input:
+			None
+		output:
+			calculates amounts and prints who owes what to whom
+		
+	BREAKDOWN
+		inputs:
+			member name (dropdown)
+		output:
+			payment history for member (amounts + payers)
