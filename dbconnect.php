@@ -1,5 +1,5 @@
 <?php
-    $host = ":/cloudsql/payment-calculator:us-central1:iou-db";
+    $host = "35.188.87.193";
 	$user = "root";
     $pwd = "password"; 
     $dbname = "iou";
