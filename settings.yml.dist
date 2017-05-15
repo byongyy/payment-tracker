@@ -1,0 +1,18 @@
+# Google credentials and configuration
+google_client_id:      YOUR_CLIENT_ID
+google_client_secret:  YOUR_CLIENT_SECRET
+google_project_id:     payment-calculator
+
+# options are "cloudsql", "mongodb", or "datastore"
+bookshelf_backend: cloudsql
+
+# configure CloudSQL backend
+mysql_dsn: "mysql:host=35.188.87.193;port=3306;dbname=iou"
+mysql_user: root
+mysql_password: password
+cloudsql_connection_name: "payment-calculator:us-central1:iou-db"
+
+# configure Mongo backend
+mongo_url: YOUR_MONGODB_URL
+mongo_database: YOUR_MONGO_DATABASE
+mongo_collection: YOUR_MONGO_COLLECTION
